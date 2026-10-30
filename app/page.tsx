@@ -31,9 +31,7 @@ const learning = [
 const links = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/angel-isasi-oyolo/" },
   { label: "GitHub", href: "https://github.com/Angel-Isasi" },
-  { label: "AWS Builder Center", href: "https://builder.aws.com/community/@angelisasi" },
-  { label: "Email", href: "mailto:angelisasi2.14@gmail.com", external: false },
-  { label: "Download CV", href: "/CV_Angel_Isasi_Oyolo.pdf" },
+  { label: "angelisasi2.14@gmail.com", href: "mailto:angelisasi2.14@gmail.com", external: false },
 ];
 
 export default function Home() {
