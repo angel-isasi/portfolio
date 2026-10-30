@@ -13,10 +13,24 @@ export default function ProjectCard({ project }: { project: Project }) {
           className="mb-4 rounded-lg border border-line"
         />
       )}
-      {project.client && (
-        <span className="mb-2 inline-block self-start rounded-full border border-accent px-2.5 py-0.5 text-xs text-accent">
-          Client project
-        </span>
+      {(project.client || project.course || project.inProgress) && (
+        <div className="mb-2 flex flex-wrap gap-2">
+          {project.client && (
+            <span className="inline-block rounded-full border border-accent px-2.5 py-0.5 text-xs text-accent">
+              Client project
+            </span>
+          )}
+          {project.course && (
+            <span className="inline-block rounded-full border border-accent px-2.5 py-0.5 text-xs text-accent">
+              Course project
+            </span>
+          )}
+          {project.inProgress && (
+            <span className="inline-block rounded-full border border-accent px-2.5 py-0.5 text-xs text-accent">
+              In progress
+            </span>
+          )}
+        </div>
       )}
       <strong className="mb-1 block">{project.title}</strong>
       <p className="mb-4 text-muted">{project.description}</p>

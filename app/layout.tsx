@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Angel Isasi · Frontend Developer",
-  description: "Angel Isasi — Systems Engineering student and frontend developer from Ica, Peru.",
+  description: "Angel Isasi, Systems Engineering student and frontend developer from Ica, Peru.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

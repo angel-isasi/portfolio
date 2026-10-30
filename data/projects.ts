@@ -6,6 +6,8 @@ export type Project = {
   repoUrl?: string;
   image?: string;
   client?: boolean;
+  course?: boolean;
+  inProgress?: boolean;
 };
 
 export const projects: Project[] = [
@@ -21,10 +23,12 @@ export const projects: Project[] = [
   {
     title: "Word Masters",
     description:
-      "Wordle clone built with vanilla HTML, CSS and JavaScript. Consumes an API with fetch (GET and POST), validates words and handles repeated letters.",
+      "Wordle clone built with vanilla HTML, CSS and JavaScript. Consumes an API with fetch (GET and POST), validates words and handles repeated letters. Built while taking Complete Intro to Web Development v3 (Frontend Masters). Currently improving it with new features.",
     tech: ["HTML", "CSS", "JavaScript"],
     demoUrl: "https://word-masters-beta.vercel.app",
     repoUrl: "https://github.com/Angel-Isasi/word-masters",
     image: "/projects/word-masters.png",
+    course: true,
+    inProgress: true,
   },
 ];

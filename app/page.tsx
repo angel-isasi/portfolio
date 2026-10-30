@@ -9,18 +9,22 @@ const skills = [
   "Next.js",
   "Tailwind CSS",
   "Python",
-  "Java",
   "Git & GitHub",
+  "Vercel",
 ];
 
 const learning = [
   {
-    title: "AWS Cloud Practitioner",
-    text: "Studying cloud fundamentals on AWS Skill Builder: core services, security, pricing and architecture.",
+    title: "AWS cloud fundamentals",
+    text: "Completed AWS Cloud Practitioner Essentials on AWS Skill Builder. Now doing hands-on labs with Lambda, API Gateway and DynamoDB.",
   },
   {
     title: "Deploying to the cloud",
     text: "I made my first hands-on deployment with AWS Amplify. This site now runs on Vercel, and I'll keep improving it as I learn.",
+  },
+  {
+    title: "React",
+    text: "Taking Complete Intro to React v9 on Frontend Masters, building a pizza ordering app.",
   },
 ];
 
@@ -28,6 +32,8 @@ const links = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/angel-isasi-oyolo/" },
   { label: "GitHub", href: "https://github.com/Angel-Isasi" },
   { label: "AWS Builder Center", href: "https://builder.aws.com/community/@angelisasi" },
+  { label: "Email", href: "mailto:angelisasi2.14@gmail.com", external: false },
+  { label: "Download CV", href: "/CV_Angel_Isasi_Oyolo.pdf" },
 ];
 
 export default function Home() {
@@ -100,8 +106,10 @@ export default function Home() {
             <a
               key={link.label}
               href={link.href}
-              target="_blank"
-              rel="noopener"
+              {...(link.external !== false && {
+                target: "_blank",
+                rel: "noopener noreferrer",
+              })}
               className="rounded-lg bg-foreground px-[18px] py-2.5 text-[15px] font-semibold text-background transition-colors hover:bg-accent"
             >
               {link.label}
