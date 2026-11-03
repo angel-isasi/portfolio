@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Angel Isasi · Frontend Developer",
+  title: "Angel Isasi · Systems Engineering student",
   description: "Angel Isasi, Systems Engineering student and frontend developer from Ica, Peru.",
 };
 
