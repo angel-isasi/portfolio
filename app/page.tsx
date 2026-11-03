@@ -27,12 +27,12 @@ const learning = [
 
 const links = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/angel-isasi-oyolo/" },
-  { label: "GitHub", href: "https://github.com/Angel-Isasi" },
+  { label: "GitHub", href: "https://github.com/angel-isasi" },
   { label: "angelisasi2.14@gmail.com", copyEmail: true },
 ];
 
 const heroLinks = [
-  { label: "GitHub", href: "https://github.com/Angel-Isasi" },
+  { label: "GitHub", href: "https://github.com/angel-isasi" },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/angel-isasi-oyolo/" },
   { label: "Email", copyEmail: true },
   { label: "CV", href: "/CV_Angel_Isasi_Oyolo.pdf" },
