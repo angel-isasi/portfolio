@@ -21,6 +21,17 @@ export const projects: Project[] = [
     image: "/projects/la-silenciosa.png",
   },
   {
+    title: "dev-prep",
+    description:
+      "Offline-first practice app I built and use daily to prepare for frontend interviews: 390 exercises with live test results on save in VS Code, an installable PWA for the phone and progress synced across devices with AWS Lambda and DynamoDB.",
+    tech: ["React", "Vite", "Express", "Vitest", "PWA", "AWS Lambda", "DynamoDB"],
+    type: "Personal project",
+    status: "Live",
+    demoUrl: "https://dev-prep.angel-isasi.com",
+    repoUrl: "https://github.com/angel-isasi/dev-prep",
+    image: "/projects/dev-prep.png",
+  },
+  {
     title: "Sistema de turnos UNICA",
     description:
       "Queue and ticket management web app for administrative services at UNICA. I'm responsible for the architecture and frontend; backend implementation in progress.",
