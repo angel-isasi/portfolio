@@ -27,7 +27,7 @@ export const projects: Project[] = [
     tech: ["React", "Vite", "Express", "Vitest", "PWA", "AWS Lambda", "DynamoDB"],
     type: "Personal project",
     status: "Live",
-    demoUrl: "https://dev-prep.angel-isasi.com",
+    demoUrl: "https://dev-prep.angel-isasi.com/?visita=1",
     repoUrl: "https://github.com/angel-isasi/dev-prep",
     image: "/projects/dev-prep.png",
   },
